@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<title>3D Spot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: White;
+}
+
+
+
+
+
+
+
+
+
+
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: 	#FF0000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container1 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: White;
+}
+
+
+
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container2 input:checked ~ .checkmark {
+  background-color: #008000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container2 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container2 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: White;
+}
+
+
+
+
+
+
+
+
+.container3 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container3 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container3:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container3 input:checked ~ .checkmark {
+  background-color:#000000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container3 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container3 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: White;
+}
+</style
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+.circular--square {
+  border-radius: 50%;
+}
+
+</style>
+<body BGcolor="black">
+
+
+
+
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top w3-black">
+  <div class=" w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-center w3-padding-12" style="font-size:40px">
+	<img src="https://res.cloudinary.com/ddjeifhne/image/upload/v1592582184/logo_p1r55a.png" class="circular--square" alt="Logo" style="width:5%">
+	3D Spot
+	</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-black w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+ 
+		
+ 
+  <div class=" w3-large" style="max-width:1200px;margin:auto">
+  <div class=" w3-padding-12" style="font-size:150%;margin-left:50%">
+  <b><U>KEY RING</U>
+  </div>
+  <div class=" w3-padding-12" style="font-size:125%; margin-left:50%">
+  <br>
+  Rs.159
+  </div>
+  <div>
+  <img src="https://res.cloudinary.com/ddjeifhne/image/upload/v1592550211/IMG_20200618_175903_584_bclwbn.jpg" alt="Couples" style="width:40%;max-width:40%;height:auto;width:35%" align="left">
+  </div>
+   <div class=" w3-padding-12" style="font-size:100%; margin-left:50%">
+  <br>
+  Select color:
+  </div>
+  <div class=" w3-padding-12" style=" margin-left:50%">
+  <label class="container">Blue
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+  </label>
+  <label class="container1">Red
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+  </label>
+  <label class="container2">Green
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+  </label>
+  <label class="container3">Black
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+  </label>
+  </div>
+
+   
+  <div class=" w3-padding-12" style="font-size:100%; margin-left:50%">
+  <br><br>
+  <p><button style="background-color: #FF0000">Order Now</button></p>
+  </div>
+  <div class=" w3-padding-12" style="font-size:120%; margin-left:50%">
+  <br><br>
+  Product Description
+  </div>
+  <div class=" w3-padding-12" style="font-size:80%; margin-left:50%">
+  <p>Upload your selfie and we will give u ur 3d miniature.<br>
+  Disclaimer:-</p>
+  </div>
+  
+  
+   
+         
+        
+  </div>
+
+
+
+  <!-- Footer -->
+  
+  <footer class="w3-row-padding w3-padding-32">
+  <hr>
+    <div class="w3-third">
+      <h3>Contact Us</h3>
+	  <p> Aarya Gupta</p>
+      <p>Address:-Tungri,Chaibasa</p>
+	  <p>Whatsapp:- 88777680694</p>
+	  <p>Call:-<a href="tel:+91 8877680694">8877680694</a></p>
+	  <p>Email:-<a href = "mailto:aaryakumargupta@gmail.com">aaryakumargupta@gmail.com</a></p>
+    </div>
+
+
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">3D printing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DOOB</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Model</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Gifts</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Miniature</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ender3</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">3D printed</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Face</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Jhakhand</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+	 <div class="w3-third ">
+      <h3>Follow Us</h3>
+       <p>
+       Instagram
+	   <a href="https://www.instagram.com/_3dspot/" target="_blank"><img src="https://res.cloudinary.com/ddjeifhne/image/upload/v1592560140/instagram_t7lheo.png" style="width:30px; height:30px" title="Instagram" alt="Instagram"></a>
+	   </p>
+	  
+    </div>
+  </footer>
+  <hr>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
